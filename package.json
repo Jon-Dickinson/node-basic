@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node.js basic functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Node.js"
+  ],
+  "author": "J Dickinson",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "formidable": "^1.2.1",
+    "nodemailer": "^6.4.2"
+  }
+}
