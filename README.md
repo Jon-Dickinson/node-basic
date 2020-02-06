@@ -1,15 +1,31 @@
 # node-basic
 
-Node.js basic functionality
+## Node.js basic functionality
 
  - email
+   - `env` file included
+   
  - file-system
- - file-upload
- - http
- - module
- - url
+   - create-file
+   - delete-file
+   - read-file
+   - rename-file
 
-`env` file included
+ - file-upload
+ 
+ - http
+   - add-http-header
+   - read-query-string
+   - split-query-string
+
+ - module
+   - custom-module
+
+ - url
+   - open-return
+   - return-url-as-object
+
+## Setup
 
 ```bash
 npm install

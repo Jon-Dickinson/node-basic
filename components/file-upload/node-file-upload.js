@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
       var oldpath = files.filetoupload.path;
 
       // confirm permissions allow this
-      var newpath = 'C:/Development/' + files.filetoupload.name;
+      var newpath = 'C:/' + files.filetoupload.name;
       
       fs.rename(oldpath, newpath, function (err) {
         if (err) throw err;

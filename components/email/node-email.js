@@ -12,7 +12,7 @@ let transporter = nodemailer.createTransport({
 
 let mailOptions = {
   from: process.env.USER,
-  to: 'myfriend@yahoo.com',
+  to: 'myfriend@gmail.com',
   subject: 'Sending Email using Node.js',
   text: 'That was easy!'
 };
