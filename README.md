@@ -31,8 +31,8 @@
 npm install
 ```
 
-copy component into `Node.js`
+copy component into `index.js`
 
 ```
-node Node.js
+node index.js
 ```
